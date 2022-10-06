@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Films",
+    "slug": "films"
+  },
+  {
+    "name": "People",
+    "slug": "people"
+  },
+  {
+    "name": "Planets",
+    "slug": "planets"
+  },
+  {
+    "name": "Species",
+    "slug": "species"
+  },
+  {
+    "name": "Starships",
+    "slug": "starships"
+  },
+  {
+    "name": "Vehicles",
+    "slug": "vehicles"
+  }
+]
