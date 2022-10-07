@@ -8,7 +8,6 @@ const Home: NextPage = () => {
     <div className={styles.container}>
       <Head>
         <link href="/favicon.ico" rel="icon" />
-        <meta content="Swapi" name="description" />
         <title>Swapi</title>
       </Head>
 
@@ -17,15 +16,12 @@ const Home: NextPage = () => {
           <ul>
             {categories.map((category, index) => (
               <li key={index}>
-                <a href={category.slug}>{category.name}</a>
+                <a href={'category/' + category.slug}>{category.name}</a>
               </li>
             ))}
           </ul>
         )}
       </main>
-
-      <footer className={styles.footer}>
-      </footer>
     </div>
   )
 }
