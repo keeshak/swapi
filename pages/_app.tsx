@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 
-function Swapi({ Component, pageProps }: AppProps) {
+const Swapi = ({ Component, pageProps }: AppProps) => {
   return <Component {...pageProps} />
 }
 

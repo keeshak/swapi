@@ -3,7 +3,7 @@ import categories from '../json/categories.json'
 import styles from '../styles/Home.module.css'
 import type { NextPage } from 'next'
 
-const Home: NextPage = () => {
+export const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
