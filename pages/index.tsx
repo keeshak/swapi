@@ -16,7 +16,7 @@ export const Home: NextPage = () => {
           <ul>
             {categories.map((category, index) => (
               <li key={index}>
-                <a href={'category/' + category.slug}>{category.name}</a>
+                <a href={category.slug}>{category.name}</a>
               </li>
             ))}
           </ul>
