@@ -1,5 +1,5 @@
 # Swapi
-Swapi assignment build on Next.js.
+Swapi API build on Next.js.
 
 ## Requirements
 Node.js
@@ -9,7 +9,7 @@ Node.js
 $ yarn
 ```
 
-## Usage
+## Run
 ```
 $ yarn dev
 ```
